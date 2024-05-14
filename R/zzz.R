@@ -5,6 +5,7 @@ moves <- c("within",
            "jump")
 
 #' @importFrom mrf2d mrfi expand_array
+#' @importFrom Rdpack reprompt
 #' @export
 mrf2d::mrfi
 
