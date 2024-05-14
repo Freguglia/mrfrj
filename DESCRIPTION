@@ -1,0 +1,29 @@
+Package: mrfrj
+Type: Package
+Title: Reversible Jump Monte Carlo Markov Chain for 2-dimensional
+  Markov Random Field Interaction Structure Selection
+Version: 0.1.0
+Author: Victor Freguglia
+Maintainer: Victor Freguglia <victorfreguglia@gmail.com>
+Description: The package contains the implementation of methods
+  proposed in 
+  Freguglia & Garcia (2024) <doi:10.48550/arXiv.2204.05933>
+  for neighborhood selection in 2-dimensional Markov Random Fields
+  via Reversible Jump and Pseudoposteriors.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+RdMacros: Rdpack
+Imports:
+  mrf2d,
+  data.table,
+  dplyr,
+  tidyr,
+  ggplot2,
+  glue,
+  tibble,
+  Rdpack
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

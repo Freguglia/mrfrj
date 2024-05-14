@@ -1,0 +1,13 @@
+bibentry(
+  bibtype  = "Article",
+  title= "Sparse Interaction Neighborhood Selection for Markov Random Fields via Reversible Jump and Pseudoposteriors",
+  author   = c(person(given = "Victor",
+                          family = "Freguglia",
+                          email = "victorfs@unicamp.br"),
+                   person(given = c("Nancy", "Lopes"),
+                          family = "Garcia",
+                          email = "nancyg@unicamp.br")),
+  journal  = "arXiv preprint arXiv:2204.05933",
+  year     = "2024",
+  header = "To cite mrf2d in publications use:"
+)
